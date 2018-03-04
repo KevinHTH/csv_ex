@@ -1,0 +1,292 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uel.vteam.belovedhostel.view.BookingListFragment"
+    android:layout_marginTop="50dp"
+    android:id="@+id/layoutBookingList"
+    android:orientation="vertical"
+    android:background="#2F4F4F"
+    android:padding="5dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/layoutThongTinHD"
+                android:background="@drawable/border_text"
+                android:padding="5dp"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                        style="@style/styleLabel"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent"
+                    android:layout_width="130dp">
+
+                    <TextView
+                        style="@style/styleLabel"
+                        android:text="@string/booking_fragment_label_DateBooking"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/label_datebook"
+                        android:layout_width="match_parent" />
+
+                    <TextView
+                        style="@style/styleLabel"
+                        android:text="@string/booking_fragment_label_Checkin"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/label_checkout_date"
+                        android:layout_width="match_parent" />
+
+                    <TextView
+                        style="@style/styleLabel"
+                        android:text="@string/booking_fragment_label_Checkout"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/label_checkin_date"
+                        android:layout_width="match_parent" />
+
+                    <TextView
+                        style="@style/styleLabel"
+                        android:text="@string/booking_fragment_label_IdRoom"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/label_room"
+                        android:layout_width="match_parent" />
+
+                    <TextView
+                        style="@style/styleLabel"
+                        android:text="@string/booking_fragment_label_People"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/label_people"
+                        android:gravity="center_vertical" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/styleLabel"
+                        android:text="HD01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtDateBooking"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        style="@style/styleLabel"
+                        android:text="25/12/2016"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtCheckIn"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        style="@style/styleLabel"
+                        android:text="11/12/2016"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtCheckOut"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        style="@style/styleLabel"
+                        android:text="P101, P102"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtIdRoom"
+                        tools:ignore="HardcodedText" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/styleLabel"
+                            android:text="@string/booking_fragment_label_Adult"
+                            android:layout_height="match_parent"
+                            android:id="@+id/label_child"
+                            android:gravity="center_vertical"
+                            android:layout_width="100dp" />
+
+                        <Spinner
+                            style="@style/styleLabel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/spinnerAdult" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            style="@style/styleLabel"
+                            android:text="@string/booking_fragment_label_Child"
+                            android:layout_height="match_parent"
+                            android:id="@+id/label_adult"
+                            android:gravity="center_vertical"
+                            android:layout_width="100dp" />
+
+                        <Spinner
+                            style="@style/styleLabel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/spinnerChildrent" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/layoutThongtinKH"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        style="@style/styleHint"
+                        android:layout_width="match_parent"
+                        android:inputType="phone"
+                        android:ems="10"
+                        android:id="@+id/editUPhone"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/booking_fragment_hint_phone"
+                        tools:ignore="SpUsage" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        style="@style/styleHint"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:id="@+id/editCMND"
+                        android:hint="@string/booking_fragment_hint_identity"
+                        tools:ignore="SpUsage"
+                        android:inputType="number" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBoxDiscount"
+                        android:layout_width="wrap_content"
+                        android:gravity="center_vertical" />
+
+                    <EditText
+                        style="@style/styleHint"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:ems="12"
+                        android:id="@+id/editDiscount"
+                        android:hint="@string/booking_fragment_hint_discount"
+                        android:inputType="number"
+                        tools:ignore="SpUsage"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:text="@string/booking_fragment_button_check"
+                        android:id="@+id/btnCheckVoucher"
+                        android:layout_height="40dp"
+                        android:layout_width="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        style="@style/styleHint"
+                        android:text="@string/booking_fragment_label_Total"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/label_total_price"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        style="@style/styleHint"
+                        android:text="1.500.000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtTotal"
+                        android:layout_marginStart="40dp"
+                        android:layout_weight="1"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        style="@style/styleHint"
+                        android:text="@string/booking_fragment_label_Currency"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtCurrency"
+                        android:layout_weight="1" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:text="@string/booking_fragment_button_addmore"
+                    android:id="@+id/btnAddMore"
+                    tools:ignore="ButtonStyle"
+                    android:layout_height="40dp"
+                    android:layout_width="wrap_content" />
+
+                <Button
+                    android:text="@string/booking_fragment_button_detail"
+                    android:id="@+id/btnDetailListRoom"
+                    tools:ignore="ButtonStyle"
+                    android:layout_height="40dp"
+                    android:layout_width="wrap_content" />
+
+                <Button
+                    android:text="@string/booking_fragment_button_complete"
+                    android:id="@+id/btnFinish"
+                    tools:ignore="ButtonStyle"
+                    android:layout_height="40dp"
+                    android:layout_width="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

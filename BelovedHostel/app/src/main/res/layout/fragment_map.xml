@@ -1,0 +1,49 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="uel.vteam.belovedhostel.view.MapFragment">
+
+    <com.google.android.gms.maps.MapView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/myMap" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:src="@drawable/ic_arrow_drop_up_white_48px"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:fabSize="mini"
+        android:id="@+id/fab"
+        android:layout_gravity="bottom|center" />
+
+    <include layout="@layout/fab_item_layout"></include>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearSearchLocation">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editSearchLocation"
+            android:hint="@string/hintWhere"
+            android:layout_weight="1" />
+
+        <Button
+            style="@style/style_textWhile_size14_bold"
+            android:text="@string/map_button_find"
+            android:id="@+id/btnGo"
+            android:background="@drawable/selector_button_gray_color"
+            android:layout_height="35dp"
+            android:layout_width="65dp" />
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

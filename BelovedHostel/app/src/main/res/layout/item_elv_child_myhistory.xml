@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutThongTinHD"
+        android:paddingLeft="20dp"
+        tools:ignore="RtlHardcoded,RtlSymmetry,UselessParent"
+        android:background="@color/White">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="120dp">
+
+            <TextView
+                android:text="@string/myhistory_fragment_label_checkin"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:text="@string/myhistory_fragment_label_checkout"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:text="@string/myhistory_fragment_label_roomid"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView29"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:text="@string/myhistory_fragment_label_people"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView16" />
+
+            <TextView
+                android:text="@string/myhistory_fragment_label_phone"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView22"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:text="@string/myhistory_fragment_label_totalbill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView27" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtCheckInHistory" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtCheckOutHistory" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtIdRoomHistory" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPeopleHistory" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPhoneHistory" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTotalHistory" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

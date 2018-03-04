@@ -1,0 +1,256 @@
+<resources>
+    <string name="app_name">Beloved Hostel</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string-array name="titles">
+        <item>Đặt phòng</item>
+        <item>Dịch vụ</item>
+        <item>Lược sử</item>
+        <item>Liên hệ</item>
+    </string-array>
+    <array name="icons">
+        <item>@drawable/icon_booking</item>
+        <item>@drawable/icon_otherservice</item>
+        <item>@drawable/icon_orderfood</item>
+        <item>@drawable/icon_contact</item>
+    </array>
+
+    <string-array name="nameTypeRoom">
+        <item>Phòng đơn</item>
+        <item>Phòng đôi</item>
+    </string-array>
+    <string-array name="detailRoom">
+        <item>Sức chứa 2 người</item>
+        <item>Sức chứa từ 1 đến 6 người </item>
+    </string-array>
+    <array name="iconTypeRoom">
+        <item>@drawable/ic_single_room</item>
+        <item>@drawable/ic_shared_room</item>
+    </array>
+
+    <!--MAP ACTIVITY-->
+    <string name="title_activity_maps">Map</string>
+    <string name="map_button_find">Tìm</string>
+
+    <!--LOGIN LAYOUT-->
+    <string name="hint_password">Mật khẩu</string>
+    <string name="hint_email">Email</string>
+    <string name="button_login">Đăng nhập</string>
+    <string name="button_logout">Đăng xuất</string>
+    <string name="button_showpass">Hiện</string>
+    <string name="button_hidepass">Ẩn</string>
+    <string name="button_cleartext_label">X</string>
+
+    <string name="login_msg_error_wrong"> Thông tin không đúng. Vui lòng thử lại</string>
+    <string name="login_msg_error_permission"> Tài khoản không đủ quyền truy cập!</string>
+
+    <!--REGISTER LAYOUT-->
+    <string name="register_error_has_used"> Email này đã được sử dụng</string>
+    <string name="hint_name">Tên người dùng</string>
+    <string name="hint_phone">Số điện thoại</string>
+    <string name="button_register">Đăng kí</string>
+
+    <!--Main Screen-->
+    <string name="label_register">Tạo tài khoản mới</string>
+    <string name="languages_vietnamese">Tiếng Việt</string>
+    <string name="languages_english">-Tiếng Anh</string>
+    <string name="error_internet">Không có kết nối internet."\n" Vui lòng kiểm tra lại!</string>
+
+    <!--SEARCH FRAGMENT DIALOG DATE -->
+    <string name="search_fragment_title_actionbar">Chọn ngày đặt phòng</string>
+    <string name="search_fragment_label_checkin">Ngày nhận phòng</string>
+    <string name="search_fragment_label_checkout">Ngày trả phòng</string>
+    <string name="search_fragment_label_monday">Thứ</string>
+    <string name="search_fragment_label_day">Ngày</string>
+    <string name="search_fragment_label_month">Tháng</string>
+    <string name="search_fragment_label_button_continue">Tiếp tục</string>
+    <string name="search_fragment_label_button_set">Xong</string>
+    <string name="search_fragment_error_datetime">Ngày nhận và trả phòng không được trùng nhau!</string>
+    <!--CHOOSE ROOM -->
+    <string name="choose_room_label_title">Chúng tôi cung cấp 2 loại phòng như sau:</string>
+    <string name="choose_room_title_actionbar">Chọn loại phòng</string>
+    <!--SERVICES-->
+
+    <string name="services_fragment_title">Dịch Vụ</string>
+    <string name="services_fragment_group_food">Thức Ăn</string>
+    <string name="services_fragment_group_transport">Vận chuyển</string>
+    <string name="services_fragment_group_other">Các dịch vụ khác</string>
+
+    <string name="services_fragment_child_breakfast">Bữa sáng</string>
+    <string name="services_fragment_child_lunch">Bữa trưa</string>
+    <string name="services_fragment_child_dinner">Bữa tối</string>
+    <string name="services_fragment_child_party">Tiệc ngoài trời</string>
+
+    <string name="services_fragment_child_renmoto">Thuê xe moto</string>
+    <string name="services_fragment_child_rencar">Thuê xe oto</string>
+    <string name="services_fragment_child_shuttle">Đón từ sân bay</string>
+    <string name="services_fragment_child_wash">Giặt ủi</string>
+    <string name="services_fragment_child_tourguide">Hướng dẫn viên</string>
+
+
+    <!--BOOKING FRAGMENT-->
+    <string name="booking_fragment_toast_confirm">Việc đặt phòng sẽ hoàn tất sau khi xác nhận.\n Tiếp tục?</string>
+    <string name="booking_fragment_toast_null_listroom">Vui lòng chọn phòng trước khi tiếp tục!</string>
+    <string name="booking_fragment_toast_already">Phòng này đã được chọn!</string>
+    <string name="booking_fragment_error_voucher_again">Vui lòng xác thực lại voucher!</string>
+    <string name="booking_fragment_toast_invalid_voucher">Mã voucher không hợp lệ!</string>
+    <string name="booking_fragment_toast_valid_voucher">Xác nhận voucher hợp lệ!</string>
+    <string name="booking_fragment_label_DateBooking">Ngày đặt phòng:</string>
+    <string name="booking_fragment_label_confirm">Xác nhận</string>
+    <string name="booking_fragment_confirm_yes">Hoàn Tất</string>
+    <string name="booking_fragment_confirm_no">Hủy</string>
+    <string name="booking_fragment_result_fault">Đặt phòng thất bại. Vui lòng thực hiện lại!</string>
+    <string name="booking_fragment_result_successful">Đặt phòng thành công! Hệ thống sẽ xử lý trong vòng 10 phút. Xin cảm ơn!</string>
+
+    <string name="booking_fragment_label_Checkin">Ngày nhận phòng:</string>
+    <string name="booking_fragment_label_Checkout">Ngày trả phòng:</string>
+    <string name="booking_fragment_label_IdRoom">Số Phòng:</string>
+    <string name="booking_fragment_label_People">Số người:</string>
+    <string name="booking_fragment_label_Total">Tổng tiền:</string>
+    <string name="booking_fragment_label_Child">Trẻ em:</string>
+    <string name="booking_fragment_label_Adult">Người lớn:</string>
+    <string name="booking_fragment_label_PhoneNumber">Số điện thoại:</string>
+    <string name="booking_fragment_label_Identity">CMND:</string>
+    <string name="booking_fragment_label_Currency">VND</string>
+    <string name="booking_fragment_hint_phone">Số điện thoại</string>
+    <string name="booking_fragment_hint_identity">Số chứng minh nhân dân</string>
+    <string name="booking_fragment_hint_discount">Mã voucher</string>
+
+    <string name="booking_fragment_title_actionbar">Hoàn tất thông tin</string>
+    <string name="booking_fragment_button_check">Xác thực</string>
+    <string name="booking_fragment_button_addmore">Chọn thêm</string>
+    <string name="booking_fragment_button_detail">Chi tiết</string>
+    <string name="booking_fragment_button_complete">Hoàn Tất</string>
+
+    <!--ROOM ITEM LAYOUT-->
+    <string name="itemroom_layout_label_roomId">P101</string>
+    <string name="itemroom_layout_label_area">Diện tích:</string>
+    <string name="itemroom_layout_label_bedroom">Số giường:</string>
+    <string name="itemroom_layout_label_furniture">Trang bị:</string>
+    <string name="itemroom_layout_label_discount">Giảm giá:</string>
+    <string name="itemroom_layout_label_status">Tình trạng:</string>
+    <string name="itemroom_layout_label_price">Giá:</string>
+    <string name="itemroom_layout_button_book">Chọn</string>
+    <string name="itemroom_layout_value_status_false">Còn trống</string>
+    <string name="itemroom_layout_value_status_true">Đã được đặt</string>
+
+    <!--LIST ROOM FRAGMENT-->
+    <string name="listroom_fragment_title_actionbar">Chọn phòng</string>
+    <string name="listroom_fragment_button_back">Quay lại</string>
+    <string name="listroom_fragment_button_continue">Tiếp tục</string>
+    <string name="listroom_fragment_toast_occupied">Phòng này đã có người đặt. Vui lòng chọn phòng khác!</string>
+
+    <!--MENU ACTIVITY-->
+    <string name="menu_activity_dialog_signout_yes">Có</string>
+    <string name="menu_activity_dialog_signout_no">Không</string>
+    <string name="menu_activity_dialog_signout_question">Bạn có muốn đăng xuất không?</string>
+    <!--DETAIL ROOM FRAGMENT-->
+    <string name="detail_room_button_close">Đóng</string>
+    <string name="detail_room_title">Danh sách phòng đã chọn</string>
+    <string name="detail_room_ask_delete">Bạn có muốn xóa?</string>
+    <string name="detail_room_yes">Có</string>
+    <string name="detail_room_no">Không</string>
+
+    <!--MY PROFILE FRAGMENT-->
+    <string name="profile_fragment_change_pass">Đổi mật khẩu</string>
+    <string name="profile_fragment_button_update">Cập Nhật</string>
+    <string name="profile_fragment_label_name">Tên:</string>
+    <string name="profile_fragment_label_phone">Số điện thoại:</string>
+    <string name="profile_fragment_label_password">Mật khẩu:</string>
+    <string name="profile_fragment_hint_name">Tên</string>
+    <string name="profile_fragment_hint_phone">Số điện thoại</string>
+    <string name="profile_fragment_hint_password">Mật khẩu</string>
+
+    <string name="profile_fragment_toast_error_upload">Lỗi upload. Vui lòng thử lại!</string>
+    <string name="profile_fragment_toast_update_successful">Cập nhật thông tin thành công!</string>
+    <string name="profile_fragment_toast_error_update">Lỗi cập nhật. Vui lòng thử lại!</string>
+    <string name="profile_fragment_toast_error_change_pass">Cập nhật mật khẩu không thành công. Vui lòng đăng nhập lại!</string>
+
+    <!--DETAIL IMAGE FRAGMENT-->
+    <string name="detail_image_fragment_button_close">Đóng</string>
+    <string name="detail_image_fragment_button_set">Chọn</string>
+    <!--TAB SUPPORT FRAGMENT-->
+    <string name="tab_support_fragment_tabAdmin">Quản Trị Viên</string>
+    <string name="tab_support_fragment_tabHistory">Lịch sử</string>
+
+    <!--Change Pass activity-->
+    <string name="changepass_activity_invisible">ẨN</string>
+    <string name="changepass_activity_visible">HIỆN</string>
+    <string name="changepass_activity_clear">X</string>
+    <string name="changepass_activity_hint_oldpass">Mật khẩu cũ</string>
+    <string name="changepass_activity_hint_newpass">Mật khẩu mới</string>
+    <string name="changepass_activity_hint_newpass_again">Nhập lại mật khẩu mới</string>
+    <string name="changepass_activity_button_change">Cập nhật</string>
+    <string name="changepass_activity_error_not_match">Mật khẩu không trùng khớp. Vui lòng nhập lại!</string>
+    <string name="changepass_activity_error_not_correct">Mật khẩu cũ không chính xác. Vui lòng nhập lại!</string>
+    <string name="changepass_activity_notify_successful">Mật khẩu cũ không chính xác. Vui lòng nhập lại!</string>
+
+
+    <!--MY HISTORY FRAGMENT (LIST BOOKING)-->
+    <string name="myhistory_fragment_toast_list_null">Tài khoản chưa thực hiện đặt phòng!</string>
+    <string name="myhistory_fragment_label_status_valid">Đã xử lý</string>
+    <string name="myhistory_fragment_label_status_invalid">Chưa xử lý</string>
+    <string name="myhistory_fragment_label_checkin">Ngày nhận phòng:</string>
+    <string name="myhistory_fragment_label_checkout">Ngày trả phòng:</string>
+    <string name="myhistory_fragment_label_roomid">Mã phòng:</string>
+    <string name="myhistory_fragment_label_people">Số người:</string>
+    <string name="myhistory_fragment_label_phone">Số điện thoại:</string>
+    <string name="myhistory_fragment_label_totalbill">Tổng tiền:</string>
+    <string name="myhistory_fragment_title">Lịch sử</string>
+    <string name="myhistory_fragment_notification_progress">Thông tin đặt phòng vừa được xử lý</string>
+    <string name="myhistory_fragment_notification_title">Be loved hostel</string>
+
+    <!--CHAT ACTIVITY-->
+    <string name="chat_activity_status_online">Đang trực tuyến</string>
+    <string name="chat_activity_status_offline">Đã rời khỏi</string>
+    <string name="chat_activity_hint_typetext">Nhập tin nhắn</string>
+
+    <!--MAP FRAGMENT-->
+    <string name="map_fragment_error_network">Kết nối mạng không khả dụng!</string>
+    <string name="map_fragment_error_gps">Kết nối GPS không khả dụng!</string>
+    <string name="map_fragment_error_support">Thiết bị của bạn không hỗ trợ dịch vụ này!</string>
+    <string name="map_fragment_error_noaddress">Không tìm thấy địa chỉ của vị trí này!</string>
+    <string name="map_fragment_current_location">Vị trí hiện tại</string>
+    <string name="map_fragment_cant_get_location">Không thể lấy được vị trí</string>
+    <string name="map_fragment_address">Địa chỉ:</string>
+    <string name="map_fragment_distance">Khoảng cách:</string>
+    <string name="map_fragment_duration">Thời gian:</string>
+    <string name="map_fragment_checkWifi">Wifi</string>
+    <string name="map_fragment_checkGps">gps</string>
+    <string name="map_fragment_latitude">Tọa độ:</string>
+    <string name="hintWhere">Nhập địa điểm</string>
+
+
+    <!--CONTACT US-->
+    <string name="contact_fragment_title">Liên hệ</string>
+
+    <!--MENU-->
+    <string name="booking">Đặt Phòng</string>
+    <string name="services">Dịch Vụ</string>
+    <string name="map">Bản Đồ</string>
+    <string name="online_support">Hỗ Trợ Trực Tuyến</string>
+    <string name="contact">Liên Hệ</string>
+    <string name="myaccount">Tài Khoản</string>
+    <string name="myhistory">Lược sử</string>
+    <string name="info_account">Thông Tin Tài Khoản</string>
+    <string name="sign_out">Đăng xuất</string>
+    <!--ERROR, NOTIFICATION CHUNG-->
+    <string name="system_error">Hệ thống đang bảo trì. Vui lòng thử lại sau!</string>
+    <string name="error_no_network">Không có kết nối mạng. vui lòng kiểm tra lại!</string>
+    <string name="error_no_image">Thiết bị chưa có hình. vui lòng kiểm tra lại!</string>
+    <string name="notify_new_message">Bạn có tin nhắn mới từ admin</string>
+    <string name="notify_title_message">Tin nhắn</string>
+
+    <string name="type_your_text">Vui lòng nhập </string>
+    <string name="invalid"> không hợp lệ</string>
+    <string name="length_require">Độ dài ít nhất </string>
+    <string name="character"> ký tự</string>
+    <string name="loading">đang xử lý...</string>
+    <string name="waiting">Vui lòng chờ...</string>
+    <string name="back2time">ấn quay về lần nữa để thoát</string>
+    <string name="login_activity_checkbox_savepass">Lưu Mật Khẩu</string>
+</resources>

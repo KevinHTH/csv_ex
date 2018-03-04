@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="uel.vteam.belovedhostel.view.ChooseRoomFragment"
+    android:layout_marginTop="50dp">
+
+    <TextView
+        android:text="@string/choose_room_label_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/label_title_typeroom"
+        android:gravity="center_horizontal"
+        android:paddingTop="30dp"
+        style="@style/style_textBlack_size16_bold" />
+
+    <ListView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvTypeRoom"
+        android:background="@drawable/boder_frame_around"
+        android:layout_marginTop="30dp"
+        android:layout_margin="10dp" />
+
+</LinearLayout>

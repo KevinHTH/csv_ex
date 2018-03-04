@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/boder_frame_around"
+    android:padding="5dp"
+    android:layout_margin="2dp">
+
+
+
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:background="@drawable/circle_text"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal">
+        <TextView
+
+            android:text="@string/itemroom_layout_label_roomId"
+            style="@style/style_textBlack_size16_bold"
+            android:id="@+id/txtRoomId"
+            android:gravity="center"
+            tools:ignore="NestedWeights"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:visibility="gone"
+            android:text="giảm 20%"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDiscount"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            tools:ignore="HardcodedText,NestedWeights" />
+    </LinearLayout>
+
+        <FrameLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/transparent"
+            android:layout_marginTop="3dp"
+            android:id="@+id/frame_imageview">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@drawable/icon_booking"
+            android:id="@+id/imgRoom"
+            android:layout_height="wrap_content"
+            android:contentDescription=""
+            android:layout_gravity="center"
+            tools:ignore="ContentDescription" />
+            <RelativeLayout
+                android:visibility="invisible"
+                android:id="@+id/loadingPanel_listRoom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center">
+                <ProgressBar
+                    style="@style/ProgressLoadingStyle"/>
+            </RelativeLayout>
+        </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/itemroom_layout_label_area"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:layout_weight="0"
+                android:layout_width="100dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtArea"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/itemroom_layout_label_bedroom"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+                android:layout_weight="0"
+                android:layout_width="100dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtBedroom"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/itemroom_layout_label_furniture"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15"
+                android:layout_weight="0" />
+
+            <TextView
+                android:maxLines="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtFurniture"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            tools:ignore="InefficientWeight">
+
+            <TextView
+                android:text="@string/itemroom_layout_label_status"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtStatus"
+                android:layout_weight="1"
+                tools:ignore="NestedWeights" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/itemroom_layout_label_price"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17"
+                android:layout_weight="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPrice"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <Button
+            style="@style/style_textWhile_size14_bold"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="@string/itemroom_layout_button_book"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/btnBook"
+            android:layout_weight="0"
+            android:background="@drawable/selector_button_blue_color"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+
+

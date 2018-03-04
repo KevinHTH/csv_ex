@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uel.vteam.belovedhostel">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.MainScreen">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".view.MainActivity"
+            android:configChanges="locale"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.MainScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentNoActionBarTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".view.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentNoActionBarTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".view.MenuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.MainScreen"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".view.ChatActivity"
+            android:theme="@style/TranslucentNoActionBarTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".view.MyProfileActivity"
+            android:theme="@style/TranslucentNoActionBarTheme" />
+        <activity android:name=".view.GalleryPictureActivity" />
+        <activity
+            android:name=".view.ChangePasswordActivity"
+            android:theme="@style/TranslucentNoActionBarTheme"
+            android:windowSoftInputMode="adjustPan" />
+    </application>
+
+</manifest>

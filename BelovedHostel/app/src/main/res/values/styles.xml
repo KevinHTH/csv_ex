@@ -1,0 +1,202 @@
+<resources>
+    <!--THEME-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.MainScreen" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+    <style name="TranslucentNoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="ActionbarOverScreen">
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <!--CUSTOM STYLE COMPONENT-->
+    <!--navigation style-->
+    <style name="NavigationViewStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:listPreferredItemHeightSmall">40dp</item>
+    </style>
+    <!--toolbar main-->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"
+       />
+
+
+    <!--progressbar loading style-->
+    <style name="ProgressLoadingStyle" parent="@android:style/Widget.ProgressBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+<!--dialog loading animation-->
+    <style name="dialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+
+
+    <!--TEXT STYLE-->
+    <!--label text search fragment-->
+    <style name="styleTextMonth">
+        <item name="android:textColor">#FFFF00</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="styleTextDay">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+
+    <style name="style_textWhile_size14_bold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="style_textBlack_size16_bold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="style_textBlack_size14_bold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="style_textBlack_size14">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <!--label text booking fragment-->
+    <style name="styleLabel">
+        <item name="android:textColor">#FAFAD2</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="styleHint">
+        <item name="android:textColorHint">#B5B5B5</item>
+        <item name="android:textColor">#FAFAD2</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+
+    <declare-styleable name="Gallery1">
+        <attr name="android:galleryItemBackground"></attr>
+    </declare-styleable>
+<!---->
+
+
+
+    <!--BUTTON STYLE-->
+
+  <!--  &lt;!&ndash;theme for welcome screen&ndash;&gt;
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.ToolBar" parent="Theme.AppCompat.Light.DarkActionBar"></style>
+
+    <style name="shadoweffect">
+        <item name="android:paddingLeft">4px</item>
+        <item name="android:paddingBottom">4px</item>
+        <item name="android:textColor">#F0F8FF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">20</item>
+    </style>
+
+    &lt;!&ndash;style navigation&ndash;&gt;
+
+
+    &lt;!&ndash;theme for  activity no color&ndash;&gt;
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        &lt;!&ndash;   <item name="android:windowContentOverlay">@null</item>  &ndash;&gt;
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="PopupTheme" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+    &lt;!&ndash;text style&ndash;&gt;
+
+
+
+
+    <style name="styleTextButton">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+
+    <declare-styleable name="Gallery1">
+        <attr name="android:galleryItemBackground"></attr>
+    </declare-styleable>
+
+
+    <string name="tab_account">Admin</string>
+    <string name="tab_history">History</string>
+
+    &lt;!&ndash; Transparent progress dialog &ndash;&gt;
+    <style name="TransparentProgressDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    &lt;!&ndash;Progress dialog style&ndash;&gt;
+    <style name="dialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="AppTheme.Welcome.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.Welcome.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    &lt;!&ndash;loading progress&ndash;&gt;
+    <style name="GenericProgressBackground" parent="android:Theme">
+       &lt;!&ndash; <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>&ndash;&gt;
+        <item name="android:background">#DD111111</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shape">ring</item>
+    </style>
+
+
+
+-->
+</resources>
+
+
+

@@ -1,0 +1,180 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="uel.vteam.belovedhostel.view.SearchFragment"
+    android:layout_marginTop="50dp"
+    android:background="@drawable/bg_app1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutTitle"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialogFragTitle_height">
+
+            <TextView
+                android:text="@string/search_fragment_label_checkin"
+                android:layout_height="match_parent"
+                android:id="@+id/label_checkin"
+                android:gravity="center"
+                style="@style/style_textBlack_size16_bold"
+                android:background="@drawable/boder_frame_topleft"
+                android:layout_width="match_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                style="@style/style_textBlack_size16_bold"
+                android:text="@string/search_fragment_label_checkout"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="@drawable/boder_frame_topright"
+                android:id="@+id/label_checkout"
+                android:layout_width="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/layoutDateTime"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialogFragShowDate_height"
+            android:background="@drawable/boder_frame_bottom">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="@string/search_fragment_label_day"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/label_day_checkin"
+                    style="@style/styleTextMonth"
+                    android:layout_marginRight="2dp"
+                    tools:ignore="InefficientWeight,NestedWeights,RtlHardcoded" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:text="@string/search_fragment_label_monday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/label_monday_checkin"
+                        style="@style/styleTextDay"
+                        android:gravity="center_horizontal"
+                        android:layout_marginRight="2dp"
+                        tools:ignore="RtlHardcoded" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:background="#999999"
+                        android:layout_height="match_parent"
+                        android:layout_width="1dp" />
+
+                    <TextView
+                        android:text="@string/search_fragment_label_month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/label_month_checkin"
+                        style="@style/styleTextDay"
+                        android:layout_marginLeft="2dp"
+                        tools:ignore="RtlHardcoded" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:id="@+id/textView3"
+                android:background="#ffffff"
+                android:layout_width="2dp" />
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="@string/search_fragment_label_day"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/label_day_checkout"
+                    style="@style/styleTextMonth"
+                    android:layout_marginRight="2dp"
+                    tools:ignore="InefficientWeight,NestedWeights,RtlHardcoded" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:text="@string/search_fragment_label_monday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/label_monday_checkout"
+                        style="@style/styleTextDay"
+                        android:gravity="center_horizontal"
+                        tools:ignore="RtlHardcoded"
+                        android:layout_marginRight="2dp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:background="#999999"
+                        android:layout_height="match_parent"
+                        android:layout_width="1dp" />
+
+                    <TextView
+                        android:text="@string/search_fragment_label_month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/label_month_checkout"
+                        style="@style/styleTextDay"
+                        android:layout_marginLeft="2dp"
+                        tools:ignore="RtlHardcoded" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            style="@style/style_textWhile_size14_bold"
+            android:text="@string/search_fragment_label_button_continue"
+            android:layout_height="30dp"
+            android:id="@+id/btnContinueToChooseRoom"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:background="@drawable/selector_button_gray_color"
+            android:layout_marginTop="@dimen/button_set_margintop" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

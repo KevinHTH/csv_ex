@@ -1,0 +1,254 @@
+<resources>
+    <string name="app_name">Beloved Hostel</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="titles">
+        <item>Đặt phòng</item>
+        <item>Dịch vụ</item>
+        <item>Lược sử</item>
+        <item>Liên hệ</item>
+    </string-array>
+    <array name="icons">
+        <item>@drawable/icon_booking</item>
+        <item>@drawable/icon_otherservice</item>
+        <item>@drawable/icon_orderfood</item>
+        <item>@drawable/icon_contact</item>
+    </array>
+
+    <string-array name="nameTypeRoom">
+        <item>Single Room</item>
+        <item>Shared Room</item>
+    </string-array>
+    <string-array name="detailRoom">
+        <item>Capacity under 3 people</item>
+        <item>Capacity under 6 people </item>
+    </string-array>
+    <array name="iconTypeRoom">
+        <item>@drawable/ic_single_room</item>
+        <item>@drawable/ic_shared_room</item>
+    </array>
+
+    <!--MAP ACTIVITY-->
+    <string name="title_activity_maps">Map</string>
+    <string name="map_button_find">Search</string>
+
+    <!--LOGIN LAYOUT-->
+    <string name="hint_password">Password</string>
+    <string name="hint_email">Email</string>
+    <string name="button_login">Log in</string>
+    <string name="button_showpass">Show</string>
+    <string name="button_hidepass">Hide</string>
+    <string name="button_cleartext_label">X</string>
+
+    <string name="login_msg_error_wrong">Information is incorrect. Please try again!</string>
+    <string name="login_msg_error_permission">Your account is not enought permission!</string>
+
+    <!--REGISTER LAYOUT-->
+    <string name="register_error_has_used">This email has used. Please check again!</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_phone">Phone</string>
+    <string name="button_register">Register</string>
+
+    <!--Main Screen-->
+    <string name="label_register">Create new account</string>
+    <string name="languages_vietnamese">Vietnamese</string>
+    <string name="languages_english">-English</string>
+    <string name="error_internet">No internet connection. Please check again!</string>
+
+    <!--SEARCH FRAGMENT DIALOG DATE -->
+    <string name="search_fragment_title_actionbar">Set Time</string>
+    <string name="search_fragment_label_checkin">Check in</string>
+    <string name="search_fragment_label_checkout">Check out</string>
+    <string name="search_fragment_label_monday">Day</string>
+    <string name="search_fragment_label_day">Day</string>
+    <string name="search_fragment_label_month">Month</string>
+    <string name="search_fragment_label_button_continue">Continue</string>
+    <string name="search_fragment_label_button_set">Go</string>
+    <string name="search_fragment_error_datetime">Check in and check out date must be different!</string>
+    <!--CHOOSE ROOM -->
+    <string name="choose_room_label_title">We have 2 type s of room:</string>
+    <string name="choose_room_title_actionbar">Choose type room</string>
+    <!--SERVICES-->
+
+    <string name="services_fragment_title">Services</string>
+    <string name="services_fragment_group_food">Food Service</string>
+    <string name="services_fragment_group_transport">Transport</string>
+    <string name="services_fragment_group_other">Other service</string>
+
+    <string name="services_fragment_child_breakfast">Breakfast</string>
+    <string name="services_fragment_child_lunch">Lunch</string>
+    <string name="services_fragment_child_dinner">Dinner</string>
+    <string name="services_fragment_child_party">Party oudside</string>
+
+    <string name="services_fragment_child_renmoto">Ren a motobike</string>
+    <string name="services_fragment_child_rencar">Rent a car</string>
+    <string name="services_fragment_child_shuttle">Shuttle at airport</string>
+    <string name="services_fragment_child_wash">Wash and Iron</string>
+    <string name="services_fragment_child_tourguide">Tourguide</string>
+
+
+    <!--BOOKING FRAGMENT-->
+    <string name="booking_fragment_toast_confirm">That booking will finish before your desision?</string>
+    <string name="booking_fragment_toast_null_listroom">Please choose room before continue!</string>
+    <string name="booking_fragment_toast_already">It has already in your list!</string>
+    <string name="booking_fragment_error_voucher_again">Please check your voucher again!</string>
+    <string name="booking_fragment_toast_invalid_voucher">Voucher number is invalid!</string>
+    <string name="booking_fragment_toast_valid_voucher">Voucher is valid!</string>
+    <string name="booking_fragment_label_DateBooking">Date booking:</string>
+    <string name="booking_fragment_label_confirm">Confirm</string>
+    <string name="booking_fragment_confirm_yes">Book</string>
+    <string name="booking_fragment_confirm_no">Cancel</string>
+    <string name="booking_fragment_result_fault">Sorry. Please book again!</string>
+    <string name="booking_fragment_result_successful">Successful! we will processing this booking about 30 minutes!</string>
+
+    <string name="booking_fragment_label_Checkin">Check in:</string>
+    <string name="booking_fragment_label_Checkout">Check out:</string>
+    <string name="booking_fragment_label_IdRoom">List room:</string>
+    <string name="booking_fragment_label_People">People:</string>
+    <string name="booking_fragment_label_Total">Total:</string>
+    <string name="booking_fragment_label_Child">Childrend</string>
+    <string name="booking_fragment_label_Adult">Adult:</string>
+    <string name="booking_fragment_label_PhoneNumber">Phone:</string>
+    <string name="booking_fragment_label_Identity">Identity/Passport:</string>
+    <string name="booking_fragment_label_Currency">VND</string>
+    <string name="booking_fragment_hint_phone">Phone</string>
+    <string name="booking_fragment_hint_identity">Identity</string>
+    <string name="booking_fragment_hint_discount">Voucher number</string>
+
+    <string name="booking_fragment_title_actionbar">Information</string>
+    <string name="booking_fragment_button_check">check</string>
+    <string name="booking_fragment_button_addmore">add more</string>
+    <string name="booking_fragment_button_detail">detail</string>
+    <string name="booking_fragment_button_complete">Finish</string>
+
+    <!--ROOM ITEM LAYOUT-->
+    <string name="itemroom_layout_label_roomId">P101</string>
+    <string name="itemroom_layout_label_area">Area:</string>
+    <string name="itemroom_layout_label_bedroom">Bedroom:</string>
+    <string name="itemroom_layout_label_furniture">Furniture:</string>
+    <string name="itemroom_layout_label_discount">Discount:</string>
+    <string name="itemroom_layout_label_status">Status:</string>
+    <string name="itemroom_layout_label_price">Price:</string>
+    <string name="itemroom_layout_button_book">Book</string>
+    <string name="itemroom_layout_value_status_false">unoccupied</string>
+    <string name="itemroom_layout_value_status_true">occupied</string>
+
+    <!--LIST ROOM FRAGMENT-->
+    <string name="listroom_fragment_title_actionbar">Choose room</string>
+    <string name="listroom_fragment_button_back">Back</string>
+    <string name="listroom_fragment_button_continue">Continue</string>
+    <string name="listroom_fragment_toast_occupied">This room was occupied</string>
+
+    <!--MENU ACTIVITY-->
+    <string name="menu_activity_dialog_signout_yes">Yes</string>
+    <string name="menu_activity_dialog_signout_no">No</string>
+    <string name="menu_activity_dialog_signout_question">Do you want to log out?</string>
+    <!--DETAIL ROOM FRAGMENT-->
+    <string name="detail_room_button_close">Close</string>
+    <string name="detail_room_title">Room</string>
+    <string name="detail_room_ask_delete">Do you want to delete?</string>
+    <string name="detail_room_yes">Yes</string>
+    <string name="detail_room_no">No</string>
+
+    <!--MY PROFILE FRAGMENT-->
+    <string name="profile_fragment_change_pass">Change password</string>
+    <string name="profile_fragment_button_update">Update</string>
+    <string name="profile_fragment_label_name">Name:</string>
+    <string name="profile_fragment_label_phone">Phone:</string>
+    <string name="profile_fragment_label_password">Password:</string>
+    <string name="profile_fragment_hint_name">Name</string>
+    <string name="profile_fragment_hint_phone">Phone</string>
+    <string name="profile_fragment_hint_password">Password</string>
+
+    <string name="profile_fragment_toast_error_upload">Upload error. Please try again!</string>
+    <string name="profile_fragment_toast_update_successful">Update profile is successful!</string>
+    <string name="profile_fragment_toast_error_update">Update error. Please try again!</string>
+    <string name="profile_fragment_toast_error_change_pass">Update password was failed Please try again!</string>
+
+    <!--DETAIL IMAGE FRAGMENT-->
+    <string name="detail_image_fragment_button_close">Close</string>
+    <string name="detail_image_fragment_button_set">Set</string>
+    <!--TAB SUPPORT FRAGMENT-->
+    <string name="tab_support_fragment_tabAdmin">Admin</string>
+    <string name="tab_support_fragment_tabHistory">History</string>
+
+    <!--Change Pass activity-->
+    <string name="changepass_activity_invisible">HIDE</string>
+    <string name="changepass_activity_visible">SHOW</string>
+    <string name="changepass_activity_clear">X</string>
+    <string name="changepass_activity_hint_newpass">New password</string>
+    <string name="changepass_activity_hint_newpass_again">Copy new password</string>
+    <string name="changepass_activity_button_change">Update</string>
+    <string name="changepass_activity_error_not_match">Password does not matched. Please type again!</string>
+    <string name="changepass_activity_notify_successful">Old password was wrong. Please type again!</string>
+
+
+    <!--MY HISTORY FRAGMENT (LIST BOOKING)-->
+    <string name="myhistory_fragment_toast_list_null">This account haven\'t been booked room!</string>
+    <string name="myhistory_fragment_label_status_valid">Valid</string>
+    <string name="myhistory_fragment_label_status_invalid">Invalid</string>
+    <string name="myhistory_fragment_label_checkin">Check in:</string>
+    <string name="myhistory_fragment_label_checkout">Check out:</string>
+    <string name="myhistory_fragment_label_roomid">Room number:</string>
+    <string name="myhistory_fragment_label_people">People:</string>
+    <string name="myhistory_fragment_label_phone">Phone:</string>
+    <string name="myhistory_fragment_label_totalbill">Total:</string>
+    <string name="myhistory_fragment_title">History</string>
+    <string name="myhistory_fragment_notification_progress">Your booking has processed by admin</string>
+    <string name="myhistory_fragment_notification_title">Be loved hostel</string>
+
+    <!--CHAT ACTIVITY-->
+    <string name="chat_activity_status_online">Online</string>
+    <string name="chat_activity_status_offline">Offline</string>
+    <string name="chat_activity_hint_typetext">Type message</string>
+
+    <!--MAP FRAGMENT-->
+    <string name="map_fragment_error_network">No internet connection!</string>
+    <string name="map_fragment_error_gps">No GPS connection!</string>
+    <string name="map_fragment_error_support">Sorry! Your divice do not support this service</string>
+    <string name="map_fragment_error_noaddress">Can\'t get address this location!</string>
+    <string name="map_fragment_current_location">Current location</string>
+    <string name="map_fragment_cant_get_location">Can not get location!</string>
+    <string name="map_fragment_address">Address:</string>
+    <string name="map_fragment_distance">Distance:</string>
+    <string name="map_fragment_duration">Time:</string>
+    <string name="map_fragment_checkWifi">Wifi</string>
+    <string name="map_fragment_checkGps">gps</string>
+    <string name="map_fragment_latitude">Coordinates:</string>
+    <string name="hintWhere">Where?</string>
+
+    <!--CONTACT US-->
+    <string name="contact_fragment_title">Contact</string>
+
+    <!--MENU-->
+    <string name="booking">Booking room</string>
+    <string name="services">Services</string>
+    <string name="map">Goolge Map</string>
+    <string name="online_support">Online Support</string>
+    <string name="contact">Contact</string>
+    <string name="myaccount">Account</string>
+    <string name="myhistory">History</string>
+    <string name="info_account">Information account</string>
+    <string name="sign_out">Log out</string>
+    <!--ERROR, NOTIFICATION CHUNG-->
+    <string name="system_error">Hệ thống đang bảo trì. Vui lòng thử lại sau!</string>
+    <string name="error_no_network">No internet connection. Please check again!</string>
+    <string name="error_no_image">This device has not image. Please check again!</string>
+    <string name="notify_new_message">You have new message!</string>
+    <string name="notify_title_message">Message</string>
+
+    <string name="type_your_text">Please type</string>
+    <string name="invalid">Invalid!</string>
+    <string name="length_require">Lenght at least</string>
+    <string name="character">character</string>
+    <string name="back2time">Double click to exit</string>
+    <string name="button_logout">Log out</string>
+    <string name="changepass_activity_error_not_correct">Password was wrong. Please type again!</string>
+    <string name="changepass_activity_hint_oldpass">Old password</string>
+    <string name="loading">loading...</string>
+    <string name="waiting">Please wait...</string>
+    <string name="login_activity_checkbox_savepass">Save Password</string>
+</resources>

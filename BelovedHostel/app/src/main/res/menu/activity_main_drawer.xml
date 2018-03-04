@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_booking"
+            android:icon="@drawable/ic_menu_booking"
+            android:title="@string/booking"/>
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@drawable/ic_menu_services"
+            android:title="@string/services" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_menu_map"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/ic_menu_online_support"
+            android:title="@string/online_support" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_contact"
+            android:title="@string/contact" />
+
+
+    </group>
+
+    <item android:title="@string/info_account">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_account"
+                    android:icon="@drawable/ic_menu_account"
+                    android:title="@string/myaccount" />
+                <item
+                    android:id="@+id/nav_history"
+                    android:icon="@drawable/ic_menu_history_order"
+                    android:title="@string/myhistory" />
+            </group>
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1010071878178",
+    "firebase_url": "https://belovedhostel-4b23a.firebaseio.com",
+    "project_id": "belovedhostel-4b23a",
+    "storage_bucket": "belovedhostel-4b23a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010071878178:android:fd441a13c04cf2b3",
+        "android_client_info": {
+          "package_name": "uel.vteam.belovedhostel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010071878178-jl22m63kq7mo6v6bs2085pkrdd0n4omg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uel.vteam.belovedhostel",
+            "certificate_hash": "132B7B236024C5AAA0F8ED7A979FB535DA13A89A"
+          }
+        },
+        {
+          "client_id": "1010071878178-9nm9179tfa7jdpc0ff5fnqs0pvs54dfa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA98WbQcK-UExbtn5ucMHx9XlBudZCIEzk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010071878178-9nm9179tfa7jdpc0ff5fnqs0pvs54dfa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

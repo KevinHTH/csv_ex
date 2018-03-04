@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uel.vteam.belovedhostel.view.MainActivity">
+
+    <!-- Top Sliding Banners -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/main_logo"
+            android:id="@+id/imgLogo"
+            android:layout_marginTop="80dp"
+            android:contentDescription="@null"
+            android:layout_gravity="center" />
+
+        <TextView
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Be loved Hostel"
+            android:id="@+id/txtNameApp"
+            android:layout_marginTop="5.0dp"
+            android:textStyle="bold"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:shadowRadius="5"
+            android:gravity="center_horizontal"
+
+            android:shadowColor="#ffffff"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:textColor="@color/red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtError"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:textColor="#ffffff"
+            android:text="@string/button_login"
+            android:id="@+id/btnEnterLogin"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/selector_button_blue_color"
+            android:layout_marginTop="20dp"
+            android:layout_height="40dp"
+            android:layout_width="140dp" />
+
+        <TextView
+            style="@style/style_textBlack_size14_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_register"
+            android:id="@+id/btnEnterRegister"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:textStyle="bold"
+            android:textIsSelectable="false"
+            android:textSize="15sp"
+            android:typeface="serif"
+            android:clickable="true" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                style="@style/style_textBlack_size14_bold"
+                android:text="@string/languages_vietnamese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtVietNamese" />
+
+            <TextView
+                style="@style/style_textBlack_size14_bold"
+                android:text="@string/languages_english"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtEnglish"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
+
+
+

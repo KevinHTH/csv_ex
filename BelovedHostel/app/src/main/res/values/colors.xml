@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#363636</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ae090c</color>
+    <color name="yellow1">#F9E60E</color>
+    <color name="yellow2">#F9F89D</color>
+    <color name="orange4">#F7BE45</color>
+    <color name="orange5">#F7D896</color>
+    <color name="blue2">#19FCDA</color>
+    <color name="blue25">#D9F7F2</color>
+    <color name="red">#EE0000</color>
+
+    <color name="grey05">#ACA899</color>
+    <color name="white1">#FFFFFF</color>
+    <color name="white2">#DDDDDD</color>
+    <color name="black">#000000</color>
+    <color name="xam">#eeeeee</color>
+    <color name="transparent">#00000000</color>
+    <color name="White">#FFFFFF</color>
+    <color name="mau_bg_imageview">#E8E8E8</color>
+
+    <!--for slide over-->
+    <color name="background_material_light">#fffafafa</color>
+    <color name="primary">#8BC34A</color>
+    <color name="primaryDark">#689F38</color>
+    <color name="primaryLight">#DCEDC8</color>
+    <color name="accent">#FF4081</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#727272</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="DarkSlateGray">#2f4f4f</color>
+    <color name="DarkSlateGray2">#8DEEEE</color>
+    <!--my color-->
+    <color name="LightSlateGray">#778899</color>
+    <color name="FloralWhite">#fffaf0</color>
+    <color name="Lavender">#E6E6FA</color>
+    <color name="DeepskyBlue">#00688b</color>
+    <color name="DeepskyBlue2">#009ACD</color>
+    <color name="Honeydew1">#f0fff0</color>
+    <color name="LightGray">#D3D3D3</color>
+    <color name="PowderBlue">#B0E0E6</color>
+    <color name="Wheat1">#FFE7BA</color>
+    <color name="SkyBlue4">#4A708B</color>
+    <color name="toolbarColor">#757575</color>
+
+
+</resources>

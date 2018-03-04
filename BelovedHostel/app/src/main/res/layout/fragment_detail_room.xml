@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="uel.vteam.belovedhostel.view.DetailRoomFragment">
+
+
+
+
+    <TextView
+        android:background="@drawable/border_title"
+        style="@style/style_textWhile_size14_bold"
+        android:layout_width="match_parent"
+        android:id="@+id/txtRoomId"
+        android:text="101"
+        android:gravity="center"
+        tools:ignore="HardcodedText"
+        android:layout_height="30dp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/scrollViewHinh"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/layoutImage" />
+
+    </HorizontalScrollView>
+
+
+    <Button
+        style="@style/style_textWhile_size14_bold"
+           android:text="@string/detail_room_button_close"
+           android:layout_width="match_parent"
+        android:id="@+id/btnCloseDialog"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/selector_button_blue_color"
+        android:layout_height="30dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uel.vteam.belovedhostel.view.ListRoomFragment"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!-- <FrameLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+-->
+    <ListView
+        android:id="@+id/lvListRoom"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:padding="3dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+    <!--<RelativeLayout
+        android:visibility="invisible"
+        android:id="@+id/loadingPanel_profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <ProgressBar
+            style="@style/ProgressLoadingStyle"/>
+    </RelativeLayout>-->
+
+   <!-- </FrameLayout>-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="@style/style_textWhile_size14_bold"
+            android:text="@string/listroom_fragment_button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/btnBack2"
+            android:background="@drawable/selector_button_gray_color"
+           android:layout_weight="1"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            style="@style/style_textWhile_size14_bold"
+            android:text="@string/listroom_fragment_button_continue"
+            android:layout_width="wrap_content"
+            android:id="@+id/btnContinue"
+            android:layout_height="30dp"
+            android:background="@drawable/selector_button_gray_color"
+           android:layout_weight="1"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+</LinearLayout>

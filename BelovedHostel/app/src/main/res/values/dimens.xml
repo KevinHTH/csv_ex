@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">200dp</dimen>
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!--
+
+    <dimen name="fragmentdatetime_lineardatime_margintop">20dp</dimen>
+    <dimen name="fragmentdatetime_button_margintop">120dp</dimen>
+    <dimen name="fragmentdatetime_tableCheckOut_marginleft">15dp</dimen>
+    <dimen name="fragmentdatetime_tableCheckIn_marginright">15dp</dimen>
+-->
+    <!--date time dialog fragment-->
+    <dimen name="dialogFragTitle_height">35dp</dimen>
+    <dimen name="dialogFragShowDate_height">100dp</dimen>
+    <dimen name="table_checkinout_height">60dp</dimen>
+    <dimen name="table_checkinout_witch">150dp</dimen>
+    <dimen name="calendarview_height">300dp</dimen>
+    <dimen name="button_set_margintop">10dp</dimen>
+
+    <!--login activity-->
+    <dimen name="activity_login_margintop">60dp</dimen>
+
+
+</resources>

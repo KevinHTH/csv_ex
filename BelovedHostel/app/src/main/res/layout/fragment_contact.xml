@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uel.vteam.belovedhostel.view.ContactFragment">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/border_layout"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:layout_marginBottom="15dp"
+            style="@style/style_textBlack_size16_bold"
+            android:text="Be loved Hostel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView23" />
+
+        <TextView
+            style="@style/style_textBlack_size14"
+            android:text="Địa chỉ: TP. Đà Lạt Việt Nam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView24" />
+
+        <TextView
+            style="@style/style_textBlack_size14"
+            android:text="Điện thoại: 08.3968558"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView25" />
+    </LinearLayout>
+</FrameLayout>

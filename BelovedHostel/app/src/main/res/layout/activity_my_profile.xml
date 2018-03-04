@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_profile"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="uel.vteam.belovedhostel.view.MyProfileActivity"
+    android:background="@drawable/border_layout"
+    android:padding="5dp">
+
+    <FrameLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:id="@+id/layoutAvatarProfile"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/imgAvatarProfile"
+            app:srcCompat="@drawable/ic_default_avatar"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_camera_alt_white_48px"
+            android:id="@+id/imageView5"
+            android:layout_gravity="bottom|right"
+            tools:ignore="ContentDescription,RtlHardcoded,VectorDrawableCompat" />
+        <RelativeLayout
+            android:visibility="invisible"
+            android:id="@+id/loadingPanel_profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center">
+            <ProgressBar
+                style="@style/ProgressLoadingStyle"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:maxLines="1"
+                android:hint="@string/profile_fragment_hint_name"
+                android:enabled="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:id="@+id/editMyProfileName"
+                android:visibility="visible"
+                tools:ignore="HardcodedText,LabelFor" />
+
+            <EditText
+                android:maxLines="1"
+                android:hint="@string/profile_fragment_hint_phone"
+                android:enabled="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:id="@+id/editMyProfilePhone"
+                tools:ignore="HardcodedText,LabelFor,TextFields" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_mode_edit_black_48px"
+                android:id="@+id/imgEditName"
+                android:layout_gravity="center_vertical"
+                tools:ignore="ContentDescription,NestedWeights,VectorDrawableCompat"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:scaleType="center" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_mode_edit_black_48px"
+                android:id="@+id/imgEditPhone"
+                android:layout_gravity="center_vertical"
+                android:contentDescription=""
+                tools:ignore="ContentDescription,VectorDrawableCompat"
+                android:layout_weight="1"
+                android:scaleType="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:textStyle="bold"
+        android:clickable="true"
+        android:text="@string/profile_fragment_change_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linkChangePass"
+        android:layout_marginLeft="4dp"
+        android:layout_gravity="center" />
+
+    <Button
+        style="@style/style_textWhile_size14_bold"
+        android:text="@string/profile_fragment_button_update"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:id="@+id/btnUpdateProfile"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/selector_button_gray_color"
+        android:layout_marginTop="10dp" />
+</LinearLayout>
