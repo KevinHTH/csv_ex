@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginBottom="@dimen/space_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/space_normal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:paddingLeft="@dimen/space_normal"
+                android:paddingRight="@dimen/space_normal">
+
+                <sg.vinova.noticeboard.widgets.AppTextView
+                    style="@style/GrayTextNormal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name" />
+
+                <sg.vinova.noticeboard.widgets.AppEditText
+                    android:id="@+id/edtName"
+                    style="@style/WhiteEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:hint="@string/hint_name"
+                    android:singleLine="true" />
+
+                <sg.vinova.noticeboard.widgets.AppTextView
+                    style="@style/GrayTextNormal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_normal"
+                    android:text="@string/email" />
+
+                <sg.vinova.noticeboard.widgets.AppEditText
+                    android:id="@+id/edtEmail"
+                    style="@style/WhiteEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:hint="@string/hint_email"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true" />
+
+                <sg.vinova.noticeboard.widgets.AppTextView
+                    style="@style/GrayTextNormal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_normal"
+                    android:text="@string/confirm_email" />
+
+                <sg.vinova.noticeboard.widgets.AppEditText
+                    android:id="@+id/edtConfirmEmail"
+                    style="@style/WhiteEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:hint="@string/retype_email"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true" />
+
+                <sg.vinova.noticeboard.widgets.AppTextView
+                    style="@style/GrayTextNormal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_normal"
+                    android:text="@string/phone_number" />
+
+                <sg.vinova.noticeboard.widgets.AppEditText
+                    android:id="@+id/edtPhone"
+                    style="@style/WhiteEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:hint="@string/hint_phone"
+                    android:inputType="number"
+                    android:singleLine="true" />
+
+                <sg.vinova.noticeboard.widgets.AppTextView
+                    style="@style/GrayTextNormal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_normal"
+                    android:text="@string/choose_a_password" />
+
+                <sg.vinova.noticeboard.widgets.AppEditText
+                    android:id="@+id/edtPassword"
+                    style="@style/WhiteEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:hint="@string/type_password"
+                    android:inputType="textPassword"
+                    android:singleLine="true" />
+
+                <sg.vinova.noticeboard.widgets.AppTextView
+                    style="@style/GrayTextNormal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_normal"
+                    android:text="@string/retype_password" />
+
+                <sg.vinova.noticeboard.widgets.AppEditText
+                    android:id="@+id/edtRetypePassword"
+                    style="@style/WhiteEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:hint="@string/confirm_password"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+
+            <TableLayout
+                android:padding="@dimen/space_normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <sg.vinova.noticeboard.widgets.AppTextView
+                        android:layout_column="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/BlackTextNormalBold"
+                        android:text="I declare and/or agree that:" />
+                </TableRow>
+
+                <TableRow
+                    android:weightSum="2"
+                    android:layout_marginTop="@dimen/space_normal">
+
+                    <CheckBox
+                        android:id="@+id/cbOne"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="top"
+                        android:textSize="12sp" />
+
+                    <sg.vinova.noticeboard.widgets.AppTextView
+                      android:layout_weight="2"
+                        android:id="@+id/tvCheckbox1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="@string/text_checkbox1" />
+
+                </TableRow>
+
+                <TableRow
+                    android:weightSum="2"
+                    android:layout_marginTop="@dimen/space_normal">
+
+                    <CheckBox
+                        android:layout_weight="0"
+                        android:id="@+id/cbTwo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="top"
+                        android:textSize="12sp" />
+
+                    <sg.vinova.noticeboard.widgets.AppTextView
+                        android:id="@+id/tvCheckbox2"
+                        android:layout_weight="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="@string/text_checkbox2" />
+
+                </TableRow>
+
+                <TableRow
+                    android:weightSum="2"
+                    android:layout_marginTop="@dimen/space_normal">
+
+                    <CheckBox
+                        android:layout_weight="0"
+                        android:id="@+id/cbThree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp" />
+
+                    <TextView
+
+                        android:linksClickable="true"
+                        android:id="@+id/tvCheckbox3"
+                        android:layout_weight="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="@string/text_checkbox3" />
+
+                </TableRow>
+            </TableLayout>
+
+            <sg.vinova.noticeboard.widgets.AppButton
+                android:id="@+id/btnSignUp"
+                style="@style/WhiteButton"
+                android:layout_width="@dimen/width_button"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/margin_footer_bar"
+                android:layout_marginTop="@dimen/space_normal"
+                android:text="@string/sign_up" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

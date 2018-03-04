@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="@dimen/space_normal"
+    android:layout_marginTop="@dimen/space_bigger">
+
+    <sg.vinova.noticeboard.widgets.AppTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/verify_passcode" />
+
+    <LinearLayout
+        android:id="@+id/linearFrame"
+        android:layout_marginTop="@dimen/space_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <sg.vinova.noticeboard.widgets.AppEditText
+            android:id="@+id/edBox1"
+            style="@style/PassCodeBox"
+            android:maxLines="1"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="2" />
+
+        <sg.vinova.noticeboard.widgets.AppEditText
+            android:id="@+id/edBox2"
+            style="@style/PassCodeBox"
+            android:maxLines="1"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="2" />
+        <sg.vinova.noticeboard.widgets.AppEditText
+            android:id="@+id/edBox3"
+            style="@style/PassCodeBox"
+            android:maxLines="1"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="2" />
+        <sg.vinova.noticeboard.widgets.AppEditText
+            android:id="@+id/edBox4"
+            style="@style/PassCodeBox"
+            android:maxLines="1"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="2" />
+        <sg.vinova.noticeboard.widgets.AppEditText
+            android:id="@+id/edBox5"
+            style="@style/PassCodeBox"
+            android:maxLines="1"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="2" />
+    </LinearLayout>
+    <sg.vinova.noticeboard.widgets.AppTextView
+        android:id="@+id/tvNotifyError"
+        android:textColor="@color/red"
+        android:text="@string/wrong_passcode"
+        android:layout_marginTop="@dimen/space_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+    <sg.vinova.noticeboard.widgets.AppButton
+        android:layout_marginTop="@dimen/space_bigger"
+        style="@style/RedButtonAlpha"
+        android:id="@+id/btnSendPassCode"
+        android:text="Send"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="wrap_content" />
+
+    <sg.vinova.noticeboard.widgets.AppTextView
+        android:id="@+id/tvChangeNumber"
+        android:linksClickable="true"
+        android:layout_marginTop="@dimen/space_normal"
+        android:text="@string/change_my_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

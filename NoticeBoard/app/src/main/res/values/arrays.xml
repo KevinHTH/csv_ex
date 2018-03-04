@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="tab_login">
+        <item>Login</item>
+        <item>Sign up</item>
+    </array>
+
+    <array name="tab_lost_found">
+        <item>Lost</item>
+        <item>Found</item>
+    </array>
+    <array name="tab_give_wanted">
+        <item>Give away</item>
+        <item>Wanted</item>
+    </array>
+</resources>

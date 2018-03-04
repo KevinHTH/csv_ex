@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/space_small"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+<ImageView
+    android:background="@drawable/btn_trans_round"
+    android:id="@+id/photo"
+    android:layout_gravity="center"
+    android:src="@mipmap/ic_launcher"
+    android:layout_width="150dp"
+    android:layout_height="150dp" />
+    <sg.vinova.noticeboard.widgets.AppTextView
+        android:id="@+id/tvPrice"
+        android:layout_marginTop="@dimen/space_small"
+        android:layout_marginLeft="@dimen/space_small"
+        tools:text="$100/Month"
+        style="@style/BlackTextNormalBold"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+</LinearLayout>

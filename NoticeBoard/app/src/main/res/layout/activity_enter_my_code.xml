@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:paddingTop="@dimen/space_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="10">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_big"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <sg.vinova.noticeboard.widgets.AppTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.9"
+                android:text="@string/noticeboard"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_header"
+                app:etv_font="medium" />
+        </LinearLayout>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_weight="5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/space_normal">
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="@dimen/space_normal"
+            android:src="@mipmap/tackit_big" />
+        <sg.vinova.noticeboard.widgets.AppTextView
+            android:paddingTop="@dimen/space_normal"
+            android:textColor="@color/yellow"
+            android:text="@string/tm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="4.5"
+            android:orientation="vertical">
+            <sg.vinova.noticeboard.widgets.AppTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_big"
+                android:alpha="0.9"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_connecting"
+                android:textColor="@color/yellow_text"
+                android:text="@string/connecting_residents" />
+
+
+          <!--  <sg.vinova.noticeboard.widgets.AppTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_big"
+                android:alpha="0.9"
+                android:gravity="center"
+                android:text="@string/proudly_brought_to_you_by_nresidentagent_sg" />-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:paddingBottom="@dimen/space_small"
+                android:orientation="horizontal">
+
+                <sg.vinova.noticeboard.widgets.AppTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_normal"
+                    android:alpha="0.9"
+                    android:gravity="center"
+                    android:text="www." />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:src="@mipmap/residentagent_big" />
+
+                <sg.vinova.noticeboard.widgets.AppTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_normal"
+                    android:alpha="0.9"
+                    android:gravity="center"
+                    android:text=".asia" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <sg.vinova.noticeboard.widgets.AppButton
+        android:id="@+id/btnEnterMyCode"
+        style="@style/BlackButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_biggest"
+        android:layout_marginLeft="@dimen/space_big"
+        android:layout_marginRight="@dimen/space_big"
+        android:text="@string/tackit" />
+
+</LinearLayout>

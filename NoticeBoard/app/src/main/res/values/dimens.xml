@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_heading">20sp</dimen>
+    <dimen name="text_size_footer">14sp</dimen>
+    <dimen name="text_size_category">14.5sp</dimen>
+    <dimen name="text_size_header">25sp</dimen>
+    <dimen name="text_size_connecting">22sp</dimen>
+
+
+    <dimen name="space_smallest">5dp</dimen>
+    <dimen name="space_small">10dp</dimen>
+    <dimen name="space_normal">20dp</dimen>
+    <dimen name="space_big">30dp</dimen>
+    <dimen name="space_bigger">45dp</dimen>
+
+    <dimen name="default_padding_tiny">5dp</dimen>
+
+    <dimen name="width_button">200dp</dimen>
+    <dimen name="height_image">90dp</dimen>
+    <dimen name="height_footer_bar">55dp</dimen>
+    <dimen name="margin_footer_bar">70dp</dimen>
+    <dimen name="width_edittext">120dp</dimen>
+    <dimen name="height_sign_up_footer">120dp</dimen>
+    <dimen name="radius_square_photo">10dp</dimen>
+    <dimen name="height_footer_gird_item">120dp</dimen>
+    <dimen name="space_footer_announment_list">150dp</dimen>
+    <dimen name="with_image_item">100dp</dimen>
+    <dimen name="height_image_item">70dp</dimen>
+    <dimen name="divider_category">2dp</dimen>
+    <dimen name="divider_photoviewer">1dp</dimen>
+
+    <dimen name="text_count">14sp</dimen>
+    <dimen name="height_circle_count">25dp</dimen>
+    <dimen name="width_circle_count">25dp</dimen>
+
+    <dimen name="height_dialog">150dp</dimen>
+    <dimen name="height_arrow">15dp</dimen>
+
+    <dimen name="radius_square_footer_photo">30dp</dimen>
+
+    <dimen name="default_padding">16dp</dimen>
+
+    
+</resources>

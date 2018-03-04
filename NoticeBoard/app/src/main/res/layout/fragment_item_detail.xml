@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="@dimen/space_big"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/itemPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:background="@color/gray_background"
+        android:orientation="vertical"
+        android:padding="@dimen/space_normal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <sg.vinova.noticeboard.widgets.AppTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_big"
+            style="@style/GrayTextHeading"
+            android:text="@string/contact"/>
+        <sg.vinova.noticeboard.widgets.AppTextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            style="@style/SubtitleBody"
+            tools:text="John Lim, 123123"/>
+
+        <sg.vinova.noticeboard.widgets.AppTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_normal"
+            style="@style/GrayTextHeading"
+            android:text="tvTitleDescription"/>
+        <sg.vinova.noticeboard.widgets.AppTextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            style="@style/SubtitleBody"
+            tools:text="asdkoas dkaos daopdkopaks daopskdopaksdo aksd oaksd opaksdoa as dasojk ajs dajsidjaisdj ai"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

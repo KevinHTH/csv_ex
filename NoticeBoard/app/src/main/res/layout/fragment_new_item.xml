@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:paddingBottom="@dimen/margin_biggest"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:weightSum="3"
+                android:id="@+id/lnRad"
+                android:layout_marginTop="@dimen/space_big"
+                android:paddingLeft="@dimen/space_normal"
+                android:paddingRight="@dimen/space_normal"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_footer_bar">
+                <RadioGroup
+                    android:id="@+id/grGiveWanted"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <RadioButton
+                        android:layout_weight="1"
+                        android:id="@+id/rdGiveAway"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_white_radius_left"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="Give away"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/text_size_normal"
+                        android:textColor="@drawable/radio_button_text"
+                        android:textStyle="bold"
+                        android:checked="true"
+                        tools:checked="true" />
+
+                    <RadioButton
+                        android:layout_weight="1"
+                        android:id="@+id/rdWanted"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_white_radius_right"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="Wanted"
+                        android:textSize="@dimen/text_size_normal"
+                        android:textAllCaps="false"
+                        android:textColor="@drawable/radio_button_text"
+                        android:textStyle="bold"
+                        tools:checked="false" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_below="@+id/lnRad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/space_normal"
+                android:paddingRight="@dimen/space_normal"
+                android:paddingBottom="@dimen/space_normal"
+                >
+                <sg.vinova.noticeboard.widgets.AppTextView
+                    android:layout_marginTop="@dimen/space_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/GrayTextNormal"
+                    android:text="@string/contact"/>
+
+                <sg.vinova.noticeboard.widgets.AppTextView
+                    android:id="@+id/tvContact"
+                    tools:text="jacky, 0848444"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+                <sg.vinova.noticeboard.widgets.AppTextView
+                    style="@style/GrayTextNormal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_normal"
+                    android:text="@string/item_description" />
+
+                <sg.vinova.noticeboard.widgets.AppEditText
+                    android:id="@+id/edtItemDescription"
+                    style="@style/WhiteEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="5"
+                    android:maxLines="5"
+                    android:gravity="top"
+                    android:background="@drawable/bg_yellow_round"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    tools:text="iphone 6" />
+
+                <sg.vinova.noticeboard.widgets.AppTextView
+                    style="@style/GrayTextNormal"
+                    android:id="@+id/tvTitlePrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_normal"
+                    android:text="@string/price_s" />
+
+                <sg.vinova.noticeboard.widgets.AppEditText
+                    android:id="@+id/edtItemPrice"
+                    style="@style/WhiteEditText"
+                    android:layout_width="@dimen/width_edittext"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:inputType="number"
+                    android:lines="1"
+                    android:maxLines="1"
+                    tools:text="iphone 6" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rvPhoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_normal">
+
+                </android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <include
+        layout="@layout/include_footer_photo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_footer_bar"/>
+</LinearLayout>

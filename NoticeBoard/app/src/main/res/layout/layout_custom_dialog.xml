@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_dialog"
+    android:layout_marginLeft="@dimen/space_small"
+    android:layout_marginRight="@dimen/space_small"
+    android:background="@drawable/bg_dialog">
+
+    <sg.vinova.noticeboard.widgets.AppTextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/space_big"
+        android:layout_marginTop="@dimen/space_big"
+        android:lines="2"
+        android:paddingLeft="@dimen/space_normal"
+        tools:text="Are you sure?" />
+
+    <LinearLayout
+        android:gravity="right"
+        android:padding="@dimen/space_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+    <sg.vinova.noticeboard.widgets.AppTextView
+        android:id="@+id/tvLeft"
+        android:text="No"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <sg.vinova.noticeboard.widgets.AppTextView
+        android:id="@+id/tvRight"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:layout_marginLeft="@dimen/space_bigger"
+        android:layout_marginRight="@dimen/space_normal"
+        android:text="Yes"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

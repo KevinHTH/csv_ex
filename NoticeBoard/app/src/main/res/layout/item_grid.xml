@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lnFrame"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_normal"
+    android:layout_marginTop="@dimen/margin_biggest"
+    android:orientation="vertical"
+
+
+    >
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/no_mage_square"
+        app:riv_border_color="@color/gray_text_small"
+        app:riv_border_width="1dp"
+        app:riv_corner_radius="@dimen/radius_square_photo"
+        tools:layout_height="200dp"
+        tools:layout_width="200dp" />
+
+
+    <sg.vinova.noticeboard.widgets.AppTextView
+        android:id="@+id/tvSubmit"
+        style="@style/BlackTextNormalBold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:lines="1"
+        tools:text="Pan" />
+
+    <sg.vinova.noticeboard.widgets.AppTextView
+        android:id="@+id/tvPrice"
+        style="@style/BlackTextNormalBold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:visibility="gone"
+        android:lines="1"
+        tools:text="$100" />
+
+    <View
+        android:visibility="gone"
+        android:id="@+id/viewFooterGrid"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_footer_gird_item" />
+</LinearLayout>

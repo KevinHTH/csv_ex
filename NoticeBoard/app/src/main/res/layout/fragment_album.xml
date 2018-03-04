@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:id="@+id/frame_my_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <FrameLayout
+            android:paddingTop="@dimen/margin_big"
+            android:id="@+id/fr_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+        <sg.vinova.noticeboard.widgets.AppButton
+            android:layout_width="@dimen/width_button"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnTakeNewPhoto"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="@dimen/margin_footer_bar"
+            android:text="@string/tack_new_photo"
+            style="@style/RedButton"
+            android:textAllCaps="false"
+            />
+    </FrameLayout>
+
+</RelativeLayout>
+

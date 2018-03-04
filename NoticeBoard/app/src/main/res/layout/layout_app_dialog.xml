@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/lnMain"
+    >
+<LinearLayout
+    android:background="@drawable/bg_dialog"
+    android:layout_marginLeft="@dimen/margin_normal"
+    android:layout_marginRight="@dimen/margin_normal"
+    android:padding="@dimen/space_normal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <sg.vinova.noticeboard.widgets.AppTextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        android:textColor="@color/gray_dark"
+        android:textSize="@dimen/text_size_bigger"
+        tools:text="@string/before_tack" />
+    <LinearLayout
+        android:id="@+id/lnCheckbox"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/space_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <sg.vinova.noticeboard.widgets.AppTextView
+                android:id="@+id/tvMainText"
+                style="@style/BlackTextNormalBold"
+                tools:text="@string/title_term_tackit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <sg.vinova.noticeboard.widgets.AppTextView
+                android:layout_marginTop="@dimen/space_normal"
+                android:id="@+id/tvSubText1"
+                tools:text="@string/term_part1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <sg.vinova.noticeboard.widgets.AppTextView
+                android:layout_marginTop="@dimen/space_normal"
+                android:id="@+id/tvSubText2"
+                tools:text="@string/term_part2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_bigger"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <sg.vinova.noticeboard.widgets.AppTextView
+            android:id="@+id/tvLeftButton"
+            tools:text="@string/cancel"
+            android:textAllCaps="false"
+            android:paddingLeft="@dimen/space_normal"
+            android:paddingRight="@dimen/space_normal"
+            android:textColor="@color/gray_dark"
+            style="@style/ButtonMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <sg.vinova.noticeboard.widgets.AppTextView
+            android:id="@+id/tvRightButton"
+            android:textColor="@color/blue"
+            tools:text="@string/submit_tack"
+            android:textAllCaps="true"
+            android:paddingLeft="@dimen/space_normal"
+            android:paddingRight="@dimen/space_normal"
+            style="@style/ButtonMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

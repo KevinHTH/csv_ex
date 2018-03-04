@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/gray_line"/>
+
+    <LinearLayout
+        android:paddingLeft="@dimen/margin_big"
+        android:paddingRight="@dimen/margin_big"
+        android:paddingTop="4dp"
+        android:paddingBottom="5.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_footer_bar"
+        android:gravity="center">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/photoFooter"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/height_footer_bar"
+            android:layout_height="@dimen/height_footer_bar"
+            android:src="@mipmap/no_mage_square"
+            app:riv_border_color="@color/red" />
+
+            <sg.vinova.noticeboard.widgets.AppTextView
+                android:id="@+id/tvFooter"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_footer"
+                style="@style/GrayTextSmall"
+                android:textColor="@color/black"
+                android:lines="3"
+                android:paddingLeft="@dimen/margin_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/footer_text" />
+    </LinearLayout>
+</LinearLayout>

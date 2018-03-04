@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <sg.vinova.noticeboard.widgets.AppTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_your_postcode"
+                android:textSize="20sp" />
+
+            <sg.vinova.noticeboard.widgets.AppEditText
+                android:id="@+id/edtPostcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_big"
+                android:background="@drawable/bg_white_round"
+                android:gravity="center"
+                android:lines="1"
+                android:inputType="number"
+                android:textSize="30sp"
+                android:padding="@dimen/margin_bigger"
+                app:etv_font="medium"
+                tools:text="000000" />
+
+            <sg.vinova.noticeboard.widgets.AppTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_normal"
+                android:text="@string/enter_master_pass"
+                android:textSize="20sp" />
+
+            <sg.vinova.noticeboard.widgets.AppEditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_big"
+                android:background="@drawable/bg_white_round"
+                android:padding="@dimen/margin_bigger"
+                android:gravity="center"
+                android:inputType="textPassword"
+                android:lines="1"
+                android:textSize="30sp"
+                app:etv_font="medium"
+                tools:text="000000" />
+
+            <sg.vinova.noticeboard.widgets.AppButton
+                android:id="@+id/btnContinue"
+                style="@style/RedButton"
+                android:layout_marginTop="@dimen/space_big"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/continue_"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+
+</LinearLayout>

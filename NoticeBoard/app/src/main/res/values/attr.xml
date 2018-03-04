@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BoundedView">
+        <attr name="bounded_width" format="dimension" />
+        <attr name="bounded_height" format="dimension" />
+    </declare-styleable>
+    
+    <declare-styleable name="AppDialog">
+       <attr name="dialogBackground" format="integer"></attr>
+        <attr name="colorMessage" format="color"></attr>
+        <attr name="colorTextCheckbox" format="color"></attr>
+
+    </declare-styleable>
+
+</resources>

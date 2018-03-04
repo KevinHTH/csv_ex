@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@mipmap/stickynote"
+        android:padding="@dimen/space_small">
+
+        <!--<ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/stickynote" />-->
+
+        <LinearLayout
+            android:id="@+id/layoutContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/space_smallest">
+
+            <ImageView
+                android:id="@+id/imgItem"
+                android:layout_width="@dimen/with_image_item"
+                android:layout_height="@dimen/height_image_item"
+                android:layout_marginRight="@dimen/space_small"
+                android:scaleType="centerCrop"
+                android:visibility="visible"
+                tools:src="@mipmap/image_loading" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <sg.vinova.noticeboard.widgets.AppTextView
+                    android:id="@+id/tvContent"
+                    style="@style/SubtitleBody"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:minLines="3"
+                    tools:text="Vậy là chỉ còn 3 ngày nữa là anh em ta lại náo vui đùa với nhau trên bãi biển trong xanh và cát trắng của Nam Du.Không khí nô nức trong công ty đang ùa về, người" />
+
+                <sg.vinova.noticeboard.widgets.AppTextView
+                    android:id="@+id/tvTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="@dimen/space_big"
+                    android:paddingTop="@dimen/space_small"
+                    android:textColor="@color/gray_dark"
+                    tools:text="2 days ago" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    <View
+        android:id="@+id/viewFooter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_footer_announment_list"/>
+
+</LinearLayout>

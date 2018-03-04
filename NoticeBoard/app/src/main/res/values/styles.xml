@@ -1,0 +1,104 @@
+<resources>
+
+
+    <style name="TitleHeading">
+        <item name="android:color">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="etv_font">medium</item>
+    </style>
+
+
+    <style name="SubtitleBody">
+        <item name="android:color">@color/black</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:background">@drawable/btn_red_round</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18sp</item>
+        <item name="etv_font">medium</item>
+    </style>
+
+    <style name="TransparentButton">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:background">@drawable/btn_trans_round</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18sp</item>
+        <item name="etv_font">medium</item>
+    </style>
+
+    <style name="RedButton" parent="Button">
+        <item name="android:background">@drawable/btn_red_round</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="WhiteButton" parent="Button">
+        <item name="android:background">@drawable/btn_white_round</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="BlackButton" parent="Button">
+        <item name="android:background">@drawable/btn_trans_round_black_stroke</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+
+    <style name="WhiteEditText">
+        <item name="android:background">@drawable/bg_white_round</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="GrayTextNormal">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/gray_dark</item>
+    </style>
+
+    <style name="GrayTextHeading" parent="GrayTextNormal">
+        <item name="etv_font">medium</item>
+    </style>
+
+    <style name="GrayTextSmall">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gray_dark</item>
+    </style>
+
+    <style name="BlackTextNormalBold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="etv_font">medium</item>
+    </style>
+    <style name="ButtonMedium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="etv_font">medium</item>
+    </style>
+
+
+
+    <style name="CountCircle">
+        <item name="android:textSize">@dimen/text_count</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor" >@color/white</item>
+    </style>
+
+    <style name="PassCodeBox">
+        <item name="android:layout_margin">@dimen/margin_small</item>
+        <item name="android:background">@drawable/bg_gray_box</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="etv_font">medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:width">50dp</item>
+        <item name="android:height">70dp</item>
+    </style>
+
+    <style name="RedButtonAlpha" parent="Button">
+        <item name="android:background">@drawable/btn_send_round</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+</resources>

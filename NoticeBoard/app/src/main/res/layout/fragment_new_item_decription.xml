@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/margin_biggest">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lnRad"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/space_normal"
+                android:paddingLeft="@dimen/space_normal"
+                android:paddingRight="@dimen/space_normal">
+
+                <sg.vinova.noticeboard.widgets.AppTextView
+                    android:id="@+id/tvTitleContact"
+                    android:layout_marginTop="@dimen/space_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/GrayTextNormal"
+                    android:text="@string/contact"/>
+
+                <sg.vinova.noticeboard.widgets.AppTextView
+                    android:id="@+id/tvContact"
+                    tools:text="jacky, 0848444"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+                <sg.vinova.noticeboard.widgets.AppTextView
+                    style="@style/GrayTextNormal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_normal"
+                    android:text="Description" />
+
+                <sg.vinova.noticeboard.widgets.AppEditText
+                    android:id="@+id/edtDescription"
+                    style="@style/WhiteEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:background="@drawable/bg_yellow_round"
+                    android:gravity="top"
+                    android:lines="5"
+                    android:maxLines="5"
+                    tools:text="very good condition " />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rvPhoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_normal">
+
+                </android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include
+        android:layout_alignParentBottom="true"
+        layout="@layout/include_footer_photo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_footer_bar" />
+</RelativeLayout>

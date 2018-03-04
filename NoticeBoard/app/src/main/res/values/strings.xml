@@ -1,0 +1,142 @@
+<resources>
+    <string name="title_app">\nResident NoticeBoard™"</string>
+    <string name="title_app2">Resident\nNoticeBoard™"</string>
+    <string name="noticeboard">Resident NoticeBoard™"</string>
+    <string name="tm">TM</string>
+    <string name="enter_your_password">Enter your own Password</string>
+    <string name="enter_your_postcode">Enter your Postal Code</string>
+    <string name="enter_master_pass">Enter Master Password</string>
+
+    <string name="login">Login</string>
+    <string name="continue_">Continue</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="resident">Resident</string>
+    <string name="proudly_brought_to_you_by_nresidentagent_sg">Proudly brought to you by</string>
+    <string name="enter_my_postcode">Enter my Postcode</string>
+
+    <string name="name">Name*</string>
+    <string name="email">Email*</string>
+    <string name="phone_number">Phone Number*</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_phone">Phone Number</string>
+    <string name="choose_a_password">Choose your own Password*</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="enter_your_phone_number">Enter your Phone Number</string>
+    <string name="retype_your_password">Retype your password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_description">Item Description</string>
+    <string name="price_s">Price(S$)</string>
+    <string name="contact">Tacked by</string>
+    <string name="write_something">Write Something</string>
+    <string name="remove">Remove</string>
+    <string name="tack_new_photo">Tack New Photo</string>
+    <string name="tack_new_recipe">Tack New Recipe</string>
+    <string name="more_details">More Details</string>
+    <string name="tack_new_item">Tack New Item</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Logout</string>
+    <string name="untack">UnTack</string>
+
+
+    <string name="by_signing_up_i_agree_on_the">By signing up, I agree on the &#032; </string>
+    <string name="resident_noticeboard">Resident NoticeBoard</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="confirm_change">Confirm Change</string>
+    <string name="my_profile">My Profile</string>
+    <string name="no_data_available">No Post Yet</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="available_now">-Available Now</string>
+    <string name="price_size" formatted="false">$%.1f/ %.1f</string>
+    <string name="price_month">$%.1f/ month</string>
+    <string name="price_sqft">$%.1f/ sqft</string>
+    <string name="per_month">- $%.1f per month</string>
+    <string name="_price">- $%.1f</string>
+    <string name="__price">$%.1f</string>
+    <string name="short_description">Short Description</string>
+    <string name="description">Description</string>
+    <string name="value_sqft">- %.1f sqft</string>
+    <string name="total_sqft" formatted="false">%.1f sqft for $%.1f</string>
+    <string name="post_success">Post Item success!</string>
+    <string name="tackit">Tack It!</string>
+    <string name="hint_email">e.g.user@gmail.com</string>
+    <string name="type_password">type password</string>
+    <string name="sqft"> sqft</string>
+    <string name="per_sqft">- $%.1f per sqft</string>
+    <string name="bed_rooms"> Bed Rooms</string>
+    <string name="bed_room"> Bed Room</string>
+    <string name="detail">Detail</string>
+
+    <string name="title_upload">Upload photo from</string>
+    <string name="take_new_photo">Take new photo</string>
+    <string name="select_photo">Select from Album</string>
+
+
+    <string name="hint_phone">e.g. 8321465</string>
+    <string name="hint_name">e.g. Sam0021</string>
+    <string name="type_new_password">type new password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="hint_confirm_new_password">confirm new password</string>
+    <string name="type_old_password">type old password</string>
+    <string name="i_declare_i_am_the_occupant">I declare I am the occupant of the...</string>
+    <string name="i_will_not_post">I will not post ...</string>
+    <string name="price">Price</string>
+
+    <!--label menu setting-->
+
+    <string name="setting">Settings</string>
+    <string name="setting_edit_profile">Edit Profile</string>
+    <string name="setting_change_password">Change Password</string>
+    <string name="setting_give_us_feedback">Give us Feedback</string>
+    <string name="setting_about_us">About Us</string>
+    <string name="setting_terms_conditions">Terms of Use</string>
+    <!--announcement message-->
+    <string name="please_fill_this_field">Please fill %s</string>
+    <string name="do_you_want_to_logout">Are you sure you want to logout?</string>
+    <string name="please_agree">Please agree on the Terms &amp; Conditions to continue</string>
+    <string name="question_delete">Are you sure you want to delete this photo?</string>
+    <string name="password_not_match">Password not match</string>
+    <string name="email_not_match">Email not match</string>
+    <string name="upload_profile_success">Update Profile Successfully!</string>
+    <string name="invalid_email">Email is Invalid</string>
+    <string name="i_have_agree">I have read &amp; agree to the </string>
+    <!---->
+    <string name="footer_text">Registered ResidentAgent®</string>
+    <string name="are_you_want_to_delete">Are you sure you want to remove this post?</string>
+    <string name="confirm_email">Confirm Email*</string>
+    <string name="retype_email">retype email</string>
+    <string name="hows_the_app_tell_us_about_it">Hows the app? Tell us about it</string>
+    <string name="before_tack">Before you Tack It, you have to agree on the following Terms of Use:</string>
+    <string name="connecting_residents">Connecting Residents™"</string>
+    <string name="proudly_brought_to_you_and_branded_by">Proudly brought to you by:</string>
+    <string name="submit_tack">SUBMIT TACK</string>
+    <string name="term_part1">I confirm that the contents of my Tack are civil and respectful to all fellow users of the App and comply with the </string>
+    <string name="term_part2">I acknowledge and agree that DayZero Pte Ltd (“DayZero”) has sole and absolute discretion to (i) remove my Tack and/or (ii) permanently suspend my account and/or (iii) permanently block me from future use of the App, without DayZero having to provide any reason or prior notice to me.</string>
+
+    <string name="title_term_tackit">To do my part to promote a spirit of collegiality in the Estate,</string>
+    <string name="text_checkbox1">I am an existing owner/Occupier (as defined in the Terms of Use below) of a property which postal code is  <![CDATA[ <b><font color=#FF0000> %1$s </b>]]> and is located at  <![CDATA[ <b><font color=#FF0000> %2$s </b>]]> (the "Estate");</string>
+    <string name="text_checkbox2">I shall not post any notices or advertisements in connection to the sale, purchase and/or lease of any real estate property and/or post or share my estate agent’s or representative’s contact details in relation to the same; and</string>
+    <string name="text_checkbox3">I agree to the <a href="http://www.google.com\" >Terms of Use </a> of the App.</string>
+    <string name="note_feedback">Note: Your feedback you tacked here will be emailed directly to <u>feedback@tackit.sg</u> and a copy of this feedback will be CC to your own email address provided by you during Sign Up of this App. Thank you</string>
+    <string name="send">Send</string>
+    <string name="verify_passcode">To verify your phone, please enter the One-Time-Password that was sent to your phone</string>
+    <string name="wrong_passcode">Wrong passcode !</string>
+    <string name="change_my_number"><u>Change my number</u></string>
+    <string name="chooses_10_photo">Only Chooses 10 photos!</string>
+    <string name="change_phone">Change Phone Number</string>
+
+    <string name="blocked_users">Blocked Users</string>
+    <string name="user_name"><![CDATA[<username>]]></string>
+    <string name="block_user">Are you sure to block \'%s\'?</string>
+    <string name="un_block_user">Are you sure to unblock \'%s\'?</string>
+    <string name="report_whats_wrong">Report whats wrong</string>
+
+</resources>

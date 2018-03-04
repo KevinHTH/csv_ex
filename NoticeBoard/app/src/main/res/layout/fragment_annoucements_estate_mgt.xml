@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:paddingTop="@dimen/space_big"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space_normal">
+        <sg.vinova.noticeboard.widgets.AppTextView
+            style="@style/BlackTextNormalBold"
+            android:id="@+id/tvMainText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coming your way"
+            />
+        <sg.vinova.noticeboard.widgets.AppTextView
+            android:id="@+id/tvPhone"
+            android:layout_marginTop="@dimen/margin_biggest"
+            style="@style/BlackTextNormalBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Call:6466-0701"
+            android:visibility="gone"
+            android:text="Call:6466-0701"
+            />
+        <sg.vinova.noticeboard.widgets.AppTextView
+            android:layout_marginTop="@dimen/margin_small"
+            android:id="@+id/tvEmail"
+            style="@style/BlackTextNormalBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            tools:text="Email: feedback@Maplewoods.com.sg"
+            android:text="Email: feedback@Maplewoods.com.sg"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

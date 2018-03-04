@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_respond"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/margin_normal"
+        android:paddingRight="@dimen/margin_normal">
+
+        <sg.vinova.noticeboard.widgets.AppTextView
+            android:id="@+id/tvReportMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_big"
+            android:text="REPORT"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha="0.5"
+            android:background="@color/app_text_light" />
+
+        <sg.vinova.noticeboard.widgets.AppTextView
+            android:id="@+id/tvBlockMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_big"
+            android:text="Block Author"
+            android:textAllCaps="true"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha="0.5"
+            android:background="@color/app_text_light" />
+
+        <sg.vinova.noticeboard.widgets.AppTextView
+            android:id="@+id/tvEditMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_big"
+            android:text="EDIT"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha="0.5"
+            android:background="@color/app_text_light" />
+
+        <sg.vinova.noticeboard.widgets.AppTextView
+            android:id="@+id/tvDeleteMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_big"
+            android:text="UNTACK"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

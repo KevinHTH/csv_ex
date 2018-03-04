@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <sg.vinova.noticeboard.widgets.AppTextView
+        android:layout_marginTop="@dimen/space_bigger"
+        android:text="@string/proudly_brought_to_you_and_branded_by"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_marginTop="@dimen/margin_extra"
+        android:src="@mipmap/about_us"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp" />
+    <TextView
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:text="branding@DayZero.sg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

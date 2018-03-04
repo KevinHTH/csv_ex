@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+<LinearLayout
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/height_sign_up_footer"
+        android:padding="@dimen/space_normal">
+
+        <sg.vinova.noticeboard.widgets.AppTextView
+            style="@style/GrayTextNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Address" />
+
+        <sg.vinova.noticeboard.widgets.AppEditText
+            android:id="@+id/edtEmail"
+            style="@style/WhiteEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:hint="@string/hint_email"
+            android:singleLine="true"
+            android:inputType="textEmailAddress"
+            tools:text="loginResponse@gmail.com" />
+
+        <sg.vinova.noticeboard.widgets.AppTextView
+
+            style="@style/GrayTextNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_normal"
+            android:text="@string/enter_your_password" />
+
+        <sg.vinova.noticeboard.widgets.AppEditText
+            android:id="@+id/edtPassword"
+            style="@style/WhiteEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:hint="@string/type_password"
+            android:inputType="textPassword"
+            tools:text="loginResponse@gmail.com" />
+
+        <sg.vinova.noticeboard.widgets.AppButton
+            android:id="@+id/btnLogin"
+            style="@style/WhiteButton"
+            android:layout_width="@dimen/width_button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/space_normal"
+            android:paddingBottom="@dimen/margin_biggest"
+            android:paddingTop="@dimen/margin_biggest"
+            android:text="@string/login" />
+
+        <sg.vinova.noticeboard.widgets.AppTextView
+            android:id="@+id/tvForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/space_normal"
+            android:gravity="center"
+            android:text="@string/forgot_password" />
+
+    </LinearLayout>
+</LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
